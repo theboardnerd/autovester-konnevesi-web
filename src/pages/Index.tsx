@@ -116,7 +116,7 @@ const Index = () => {
     <div className="min-h-screen bg-slate-50">
       {/* Header */}
       <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-slate-200 shadow-sm">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-4 py-4 max-w-6xl">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
@@ -199,9 +199,15 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section id="hero" className="pt-20 pb-16 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white">
-        <div className="container mx-auto px-4 py-16">
-          <div className="max-w-4xl mx-auto text-center">
+      <section 
+        id="hero" 
+        className="pt-20 pb-16 min-h-screen bg-cover bg-center bg-no-repeat relative"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('/lovable-uploads/a10dc427-3368-4c9e-92fd-511d3dee9019.png')`
+        }}
+      >
+        <div className="container mx-auto px-4 py-16 max-w-6xl">
+          <div className="max-w-4xl mx-auto text-center text-white">
             <Badge className="mb-6 bg-blue-600/20 text-blue-200 border-blue-400/30 text-sm px-4 py-2">
               Vuodesta 1997 luotettavaa autopalvelua
             </Badge>
@@ -209,7 +215,7 @@ const Index = () => {
               Asiantuntevaa autokorjaamopalvelua
               <span className="block text-blue-300">Konneveden sydämessä</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-slate-300 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-3xl mx-auto">
               Selkeä hinta, korkea laatu - Yli 25 vuoden kokemuksella palvelemme autosi tarpeita
             </p>
             
@@ -228,25 +234,10 @@ const Index = () => {
                 Kysy tarjous
               </Button>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-300 mb-2">25+</div>
-                <div className="text-slate-300">Vuotta kokemusta</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-300 mb-2">9</div>
-                <div className="text-slate-300">Eri palvelualuetta</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-300 mb-2">100%</div>
-                <div className="text-slate-300">Tyytyväisyys tavoite</div>
-              </div>
-            </div>
           </div>
         </div>
         
-        <div className="text-center">
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-center">
           <button 
             onClick={() => scrollToSection('services')}
             className="inline-flex items-center gap-2 text-blue-300 hover:text-white transition-colors animate-bounce"
@@ -259,7 +250,7 @@ const Index = () => {
 
       {/* Services Section */}
       <section id="services" className="py-16 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               Palvelumme
@@ -347,7 +338,7 @@ const Index = () => {
 
       {/* About Section */}
       <section id="about" className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-6xl">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -424,7 +415,7 @@ const Index = () => {
 
       {/* Contact Section */}
       <section id="contact" className="py-16 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-6xl">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -559,7 +550,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
