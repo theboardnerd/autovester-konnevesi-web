@@ -1,0 +1,45 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "src/content/homepage.json"
+        fields:
+          - { label: "Hero Title", name: "heroTitle", widget: "string" }
+          - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Phone Number", name: "phone", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Secondary Email", name: "secondaryEmail", widget: "string" }
+          - { label: "Address", name: "address", widget: "text" }
+          - { label: "Website", name: "website", widget: "string" }
+      - label: "Services"
+        name: "services"
+        file: "src/content/services.json"
+        fields:
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Benefits"
+                name: "benefits"
+                widget: "list"
+                field: { label: "Benefit", name: "benefit", widget: "string" }
+      - label: "About"
+        name: "about"
+        file: "src/content/about.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Company History", name: "history", widget: "text" }
+          - { label: "Current Services", name: "currentServices", widget: "text" }
+          - { label: "Closing Statement", name: "closingStatement", widget: "string" }
