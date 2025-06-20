@@ -1,0 +1,74 @@
+{
+  "services": [
+    {
+      "title": "Kolarikorjaukset",
+      "subtitle": "Vuosien kokemuksella luotettavasti",
+      "description": "Liikennevahinkotapauksissa toimimme nopeasti ja ammattitaidolla. Kuvaamme autojen vauriot itse ja teemme vahinkotarkastukset yhteistyössä vakuutusyhtiöiden kanssa. Näin vältämme byrokratiaa ja saamme autonne nopeasti korjatuksi ilman tarpeetonta viivästymistä.",
+      "benefits": [
+        "Nopea vahinkokäsittely ilman byrokratiaa",
+        "Suora yhteistyö vakuutusyhtiöiden kanssa",
+        "Laadukkaat ja turvalliset varaosat"
+      ]
+    },
+    {
+      "title": "Määräaikaishuollot",
+      "subtitle": "Säästä isommilta korjauksilta",
+      "description": "Autosi huolto-ohjelman noudattaminen takaa autosi luotettavan toiminnan ja nostaa jälleenmyyntiarvoa. Suoritamme kaikki valmistajan määrittämät huollot ammattitaidolla ja ajallaan.",
+      "benefits": [
+        "Valmistajan takuu säilyy",
+        "Parempi jälleenmyyntiarvo",
+        "Ennaltaehkäisee kalliit korjaukset"
+      ]
+    },
+    {
+      "title": "Vikadiagnostiikka",
+      "subtitle": "Bosch-laitteistolla tarkkaan",
+      "description": "Joskus auto pitää outoa ääntä, eikä vikaa meinaa löytyä millään. Bosch-vikadiagnostiikan avulla löydämme ongelman nopeasti - säästät aikaa ja rahaa kun vika korjataan kerralla oikein.",
+      "benefits": [
+        "Tarkka diagnoosi ensimmäisellä kerralla",
+        "Ei arvailua - säästät turhilta korjauksilta",
+        "Nopea ja tehokas ongelmanratkaisu"
+      ]
+    },
+    {
+      "title": "Tuulilasinvaihdot",
+      "subtitle": "Myös vakuutusyhtiöiden työt",
+      "description": "Vaihdamme vaurioituneet tuulilasit uusiin nopeasti ja ammattitaidolla. Hoidamme vakuutusasiat puolestasi - sinun tarvitsee vain tuoda auto meille.",
+      "benefits": [
+        "Vakuutusasiointi hoidettu",
+        "Nopea ajanvaraus",
+        "Laadukas lopputulos"
+      ]
+    },
+    {
+      "title": "Ilmastointihuolto",
+      "subtitle": "Säästä polttoainetta",
+      "description": "Huoltamaton ilmastointi kuluttaa jopa 15% enemmän polttoainetta. Pohjoisissa olosuhteissa järjestelmä joutuu erityisesti koetukselle. Säännöllinen huolto pitää kulutuksen kurissa!",
+      "benefits": [
+        "Vähemmän polttoaineenkulutusta",
+        "Tehokas ja tasainen jäähdytys",
+        "Pidemmät huoltovälit"
+      ]
+    },
+    {
+      "title": "Nelipyöräsuuntaus",
+      "subtitle": "Turvallisesti ja taloudellisesti",
+      "description": "Oikea nelipyöräsuuntaus estää renkaiden ennenaikaisen kulumisen ja parantaa ajomukavuutta etenkin talviolosuhteissa. Nykyaikaisilla laitteillamme saat tarkat mittaustulokset.",
+      "benefits": [
+        "Renkaat kestävät pidempään",
+        "Turvallisempi ajokokemus",
+        "Parempi polttoainetalous"
+      ]
+    },
+    {
+      "title": "Varaosat ja autotarvikkeet",
+      "subtitle": "Kilpailukykyiseen hintaan",
+      "description": "Korjaamon yhteydessä toimivasta myymälästä löydät kaiken tarvittavan yhdellä käynnillä: autojen varaosat tilauksesta, öljyt ja voiteluaineet, sytystulpat ja lamput, pesunesteet ja pyyhkijät, muut autotarvikkeet.",
+      "benefits": [
+        "Säästät aikaa - kaikki samasta paikasta",
+        "Kilpailukykyiset hinnat",
+        "Asiantunteva neuvonta"
+      ]
+    }
+  ]
+}
