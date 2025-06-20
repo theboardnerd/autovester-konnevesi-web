@@ -119,7 +119,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/5b5290a5-8de1-433c-99c4-b1fea5560a9f.png" 
+                src="/autovester-konnevesi-web/lovable-uploads/5b5290a5-8de1-433c-99c4-b1fea5560a9f.png" 
                 alt="AutoVester Logo"
                 className="h-12 w-auto"
               />
@@ -200,7 +200,7 @@ const Index = () => {
         id="hero" 
         className="pt-20 pb-16 min-h-screen bg-cover bg-center bg-no-repeat relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('/lovable-uploads/a10dc427-3368-4c9e-92fd-511d3dee9019.png')`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('/autovester-konnevesi-web/lovable-uploads/a10dc427-3368-4c9e-92fd-511d3dee9019.png')`
         }}
       >
         <div className="container mx-auto px-4 py-16 max-w-6xl">
@@ -348,7 +348,7 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
               <div>
                 <img 
-                  src="/lovable-uploads/a10dc427-3368-4c9e-92fd-511d3dee9019.png" 
+                  src="/autovester-konnevesi-web/lovable-uploads/a10dc427-3368-4c9e-92fd-511d3dee9019.png" 
                   alt="Ammattilainen huoltamassa autoa AutoVesterillä"
                   className="w-full h-64 object-cover rounded-lg shadow-lg"
                 />
@@ -487,7 +487,7 @@ const Index = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-slate-900">Verkkosivu:</p>
-                      <p className="text-slate-700">www.autovesteri.fi</p>
+                      <p className="text-slate-700">www.autovester.fi</p>
                     </div>
                   </div>
                 </CardContent>
