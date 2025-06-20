@@ -118,13 +118,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 max-w-6xl">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                <Wrench className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <h1 className="text-xl font-bold text-slate-900">AutoVester</h1>
-                <p className="text-sm text-slate-600">Asiantuntevaa autopalvelua</p>
-              </div>
+              <img 
+                src="/lovable-uploads/5b5290a5-8de1-433c-99c4-b1fea5560a9f.png" 
+                alt="AutoVester Logo"
+                className="h-12 w-auto"
+              />
             </div>
             
             {/* Desktop Navigation */}
@@ -227,7 +225,7 @@ const Index = () => {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg font-semibold transition-all"
+                className="border-2 border-white text-white hover:bg-white hover:text-slate-900 bg-transparent px-8 py-4 text-lg font-semibold transition-all"
                 onClick={() => scrollToSection('contact')}
               >
                 Kysy tarjous
