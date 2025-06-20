@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -339,17 +338,16 @@ const Index = () => {
       {/* About Section */}
       <section id="about" className="py-16 bg-slate-50">
         <div className="container mx-auto px-4 max-w-6xl">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                Tietoa meistä
-              </h2>
-              <p className="text-xl text-slate-600">
-                AutoVester Oy - Luotettava kumppani vuodesta 1997
-              </p>
-            </div>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              Tietoa meistä
+            </h2>
+            <p className="text-xl text-slate-600">
+              AutoVester Oy - Luotettava kumppani vuodesta 1997
+            </p>
+          </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
               <div>
                 <img 
                   src="/lovable-uploads/a10dc427-3368-4c9e-92fd-511d3dee9019.png" 
@@ -409,140 +407,137 @@ const Index = () => {
                 Ota yhteyttä
               </Button>
             </div>
-          </div>
         </div>
       </section>
 
       {/* Contact Section */}
       <section id="contact" className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                Ota yhteyttä
-              </h2>
-              <p className="text-xl text-slate-600">
-                Olemme täällä sinua varten - soita tai käy paikan päällä
-              </p>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              Ota yhteyttä
+            </h2>
+            <p className="text-xl text-slate-600">
+              Olemme täällä sinua varten - soita tai käy paikan päällä
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Contact Info */}
+            <div>
+              <Card className="bg-blue-50 border-blue-200 mb-8">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">
+                    Varaa aikasi tai kysy tarjous
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                        <span className="text-white text-lg">📞</span>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-slate-900">Puhelin</p>
+                        <a href="tel:050 0193 912" className="text-blue-600 hover:text-blue-700 font-bold text-lg">
+                          050 0193 912
+                        </a>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                        <span className="text-white text-lg">📧</span>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-slate-900">Sähköposti</p>
+                        <a href="mailto:tuomo.vester@gmail.com" className="text-blue-600 hover:text-blue-700">
+                          tuomo.vester@gmail.com
+                        </a>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                        <span className="text-white text-lg">🕒</span>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-slate-900">Avoinna</p>
+                        <p className="text-slate-600">Arkisin - Ota yhteyttä ja sovitaan aika</p>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-slate-200">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">
+                    Yhteystiedot
+                  </h3>
+                  <div className="space-y-3">
+                    <div>
+                      <p className="font-semibold text-slate-900">Osoite:</p>
+                      <p className="text-slate-700">Kauppatie 45<br />44300 Konnevesi</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-slate-900">Sähköpostit:</p>
+                      <div className="space-y-1">
+                        <a href="mailto:tuomo.vester@gmail.com" className="block text-blue-600 hover:text-blue-700">
+                          tuomo.vester@gmail.com
+                        </a>
+                        <a href="mailto:tuomo.vester@pp.inet.fi" className="block text-blue-600 hover:text-blue-700">
+                          tuomo.vester@pp.inet.fi
+                        </a>
+                      </div>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-slate-900">Verkkosivu:</p>
+                      <p className="text-slate-700">www.autovesteri.fi</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              {/* Contact Info */}
-              <div>
-                <Card className="bg-blue-50 border-blue-200 mb-8">
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-bold text-slate-900 mb-4">
-                      Varaa aikasi tai kysy tarjous
-                    </h3>
-                    <div className="space-y-4">
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                          <span className="text-white text-lg">📞</span>
-                        </div>
-                        <div>
-                          <p className="font-semibold text-slate-900">Puhelin</p>
-                          <a href="tel:050 0193 912" className="text-blue-600 hover:text-blue-700 font-bold text-lg">
-                            050 0193 912
-                          </a>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                          <span className="text-white text-lg">📧</span>
-                        </div>
-                        <div>
-                          <p className="font-semibold text-slate-900">Sähköposti</p>
-                          <a href="mailto:tuomo.vester@gmail.com" className="text-blue-600 hover:text-blue-700">
-                            tuomo.vester@gmail.com
-                          </a>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                          <span className="text-white text-lg">🕒</span>
-                        </div>
-                        <div>
-                          <p className="font-semibold text-slate-900">Avoinna</p>
-                          <p className="text-slate-600">Arkisin - Ota yhteyttä ja sovitaan aika</p>
-                        </div>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card className="border-slate-200">
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-bold text-slate-900 mb-4">
-                      Yhteystiedot
-                    </h3>
-                    <div className="space-y-3">
-                      <div>
-                        <p className="font-semibold text-slate-900">Osoite:</p>
-                        <p className="text-slate-700">Kauppatie 45<br />44300 Konnevesi</p>
-                      </div>
-                      <div>
-                        <p className="font-semibold text-slate-900">Sähköpostit:</p>
-                        <div className="space-y-1">
-                          <a href="mailto:tuomo.vester@gmail.com" className="block text-blue-600 hover:text-blue-700">
-                            tuomo.vester@gmail.com
-                          </a>
-                          <a href="mailto:tuomo.vester@pp.inet.fi" className="block text-blue-600 hover:text-blue-700">
-                            tuomo.vester@pp.inet.fi
-                          </a>
-                        </div>
-                      </div>
-                      <div>
-                        <p className="font-semibold text-slate-900">Verkkosivu:</p>
-                        <p className="text-slate-700">www.autovesteri.fi</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-
-              {/* Contact Form / Additional Info */}
-              <div>
-                <Card className="border-slate-200 mb-8">
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-bold text-slate-900 mb-4">
-                      Yhteydenotto
-                    </h3>
-                    <p className="text-slate-700 mb-6 leading-relaxed">
-                      Saat meidät parhaiten kiinni puhelimitse numerosta 
-                      <a href="tel:050 0193 912" className="text-blue-600 hover:text-blue-700 font-semibold mx-1">
-                        050 0193 912
-                      </a>
-                      . Voit myös lähettää meille sähköpostia osoitteeseen 
-                      <a href="mailto:tuomo.vester@pp.inet.fi" className="text-blue-600 hover:text-blue-700 mx-1">
-                        tuomo.vester@pp.inet.fi
-                      </a>
-                      .
+            {/* Contact Form / Additional Info */}
+            <div>
+              <Card className="border-slate-200 mb-8">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">
+                    Yhteydenotto
+                  </h3>
+                  <p className="text-slate-700 mb-6 leading-relaxed">
+                    Saat meidät parhaiten kiinni puhelimitse numerosta 
+                    <a href="tel:050 0193 912" className="text-blue-600 hover:text-blue-700 font-semibold mx-1">
+                      050 0193 912
+                    </a>
+                    . Voit myös lähettää meille sähköpostia osoitteeseen 
+                    <a href="mailto:tuomo.vester@pp.inet.fi" className="text-blue-600 hover:text-blue-700 mx-1">
+                      tuomo.vester@pp.inet.fi
+                    </a>
+                    .
+                  </p>
+                  <div className="bg-blue-50 p-4 rounded-lg">
+                    <p className="text-blue-800 font-semibold text-center">
+                      Soita ja kysy - autamme mielellämme!
                     </p>
-                    <div className="bg-blue-50 p-4 rounded-lg">
-                      <p className="text-blue-800 font-semibold text-center">
-                        Soita ja kysy - autamme mielellämme!
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
+                  </div>
+                </CardContent>
+              </Card>
 
-                <Card className="bg-slate-50 border-slate-200">
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-bold text-slate-900 mb-4">
-                      Sijainti
-                    </h3>
-                    <p className="text-slate-700 mb-4 leading-relaxed">
-                      Löydät meidät helposti Konneveden keskustasta osoitteesta Kauppatie 45. 
-                      Olemme palvelleet paikallista yhteisöä jo yli 25 vuoden ajan ja tunnemme alueen autoilijoiden tarpeet.
+              <Card className="bg-slate-50 border-slate-200">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">
+                    Sijainti
+                  </h3>
+                  <p className="text-slate-700 mb-4 leading-relaxed">
+                    Löydät meidät helposti Konneveden keskustasta osoitteesta Kauppatie 45. 
+                    Olemme palvelleet paikallista yhteisöä jo yli 25 vuoden ajan ja tunnemme alueen autoilijoiden tarpeet.
+                  </p>
+                  <div className="text-center">
+                    <p className="text-slate-800 font-semibold">
+                      Tervetuloa käymään - olemme täällä sinua varten!
                     </p>
-                    <div className="text-center">
-                      <p className="text-slate-800 font-semibold">
-                        Tervetuloa käymään - olemme täällä sinua varten!
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
