@@ -1,12 +1,1 @@
-{
-  "name": "AutoVester",
-  "scripts": {
-    "dev": "tinacms dev -c \"npm run start\"",
-    "build": "tinacms build && npm run build:original",
-    "build:original": "react-scripts build"
-  },
-  "dependencies": {
-    "@tinacms/cli": "^1.5.21",
-    "tinacms": "^1.5.21"
-  }
-}
+// File removed - CMS setup cancelled
